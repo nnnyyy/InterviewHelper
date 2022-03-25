@@ -1,0 +1,17 @@
+@mixin font_temp($temp_idx) {
+    @if $temp_idx == 0 {
+        font-size: 12pt;
+    }
+    @else if $temp_idx == 1 {
+        font-size: 16pt;
+    }
+    @else if $temp_idx == 2 {
+        font-size: 24pt;
+    }
+    @else if $temp_idx == 3 {
+        font-size: 36pt;
+    }
+    @else {
+        font-size: 10pt;
+    }
+}
